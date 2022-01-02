@@ -1,0 +1,60 @@
+Feature,Type,Dataset,Description
+NCES_ID,int64,california_school_district_info.csv,School district identifier for National Center for Education Statistics (NCES)
+CDCode,int64,california_school_district_info.csv,Official school district Identifier
+county_name,object,california_school_district_info.csv,County name
+district_name,object,california_school_district_info.csv,School district name
+district_type,object,california_school_district_info.csv,Type of school district
+urban_locale,object,california_school_district_info.csv,"Urban locale of school district (city, suburb, fringe, rural, etc)"
+total_enrolment,int64,california_school_district_info.csv,Total student enrolment
+charter_school_percentage,float64,california_school_district_info.csv,Percentage of students in charter school
+non_charter_school_percentage,float64,california_school_district_info.csv,Percentage of students in non-charter school (Public)
+homeless_student_percentage,float64,california_school_district_info.csv,Percentage of students who are homeless
+migrant_student_percentage,float64,california_school_district_info.csv,Percentage of students who are migrants
+dropout_percentage,float64,california_school_district_info.csv,Percentage of students who dropped out
+suspension_percentage,float64,california_school_district_info.csv,Percentage of students suspended
+total_population,float64,california_school_district_NCES_info.csv,Total population of district
+median_houshold_income,float64,california_school_district_NCES_info.csv,Median houshold income of district
+total_household,float64,california_school_district_NCES_info.csv,Total household number of district
+white,float64,california_school_district_NCES_info.csv,Percentage of district population who are white
+black,float64,california_school_district_NCES_info.csv,Percentage of district population who are black
+hispanic_or_latino,float64,california_school_district_NCES_info.csv,Percentage of district population who are hispanic_or_latino
+asian,float64,california_school_district_NCES_info.csv,Percentage of district population who are asian
+american_indian/alaskan_native,float64,california_school_district_NCES_info.csv,Percentage of district population who are american indian/alaskan native
+hawaiian_and_other_pacific_islander,float64,california_school_district_NCES_info.csv,Percentage of district population who are hawaiian and other pacific islanders
+some_other_race_alone,float64,california_school_district_NCES_info.csv,Percentage of district population who are from other races
+two_or_more_races,float64,california_school_district_NCES_info.csv,Percentage of district population who are from or mores
+housing_structure_built_2000_and_after,float64,california_school_district_NCES_info.csv,Percentage of houses built 2000 and after
+housing_structure_built_1970-1999,float64,california_school_district_NCES_info.csv,Percentage of houses built from 1970 to 1999
+housing_structure_built_before_1970,float64,california_school_district_NCES_info.csv,Percentage of houses built before 1970s
+household_with_broadband_internet,float64,california_school_district_NCES_info.csv,Percentage of households with internet broadband
+housing_structure_type_house,float64,california_school_district_NCES_info.csv,Percentage of district population who live in houses
+housing_structure_type_apartment,float64,california_school_district_NCES_info.csv,Percentage of district population who live in apartments
+speak_english_only_children,float64,california_school_district_NCES_info.csv,Percentage of district population who speak english ony
+under18_with_disability,float64,california_school_district_NCES_info.csv,Percentage of students with disability
+under18_with_health_insurance,float64,california_school_district_NCES_info.csv,Percentage of students with health insurance coverage
+family_income_below_poverty,float64,california_school_district_NCES_info.csv,Percentage of students with family income below poverty level
+married_couple_household,float64,california_school_district_NCES_info.csv,Percentage of students who are from married couple households
+cohabitating_couple_household,float64,california_school_district_NCES_info.csv,Percentage of students who are from cohabitating couple households
+female_householder_household,float64,california_school_district_NCES_info.csv,Percentage of students who are from households with female householder only
+male_householder_household,float64,california_school_district_NCES_info.csv,Percentage of students who are from households with male householder only
+parents_not_in_labor_force,float64,california_school_district_NCES_info.csv,Percentage of students with parents not in labor force
+bachelors_or_higher,float64,california_school_district_NCES_info.csv,Pencentage of students with parents who possess at least a bachelor's degree
+expenditure_per_student,float64,california_school_district_NCES_info.csv,Expenditure per student of the school district
+act_enroll,float64,act_2019_ca.csv,Enrollment of Grade 12
+act_num_test_taker,float64,act_2019_ca.csv,Number of Test Takers for ACT
+act_participation_rate,float64,act_2019_ca.csv,Participation Rate of Grade 12 in ACT
+act_average_reading_score,float64,act_2019_ca.csv,Average ACT Reading Score
+act_average_english_score,float64,act_2019_ca.csv,Average ACT  English Score
+act_average_math_score,float64,act_2019_ca.csv,Average ACT Math Score
+act_average_science_score,float64,act_2019_ca.csv,Average ACT Science Score
+act_num_above_average_score,float64,act_2019_ca.csv,Number of Test Takers Whose ACT Composite Scores Are Greater or Equal to 21. 
+act_percentage_above_average_score,float64,act_2019_ca.csv,Percent of Test Takers Whose ACT Composite Scores Are Greater or Equal to 21
+sat_enroll,float64,sat_2019_ca.csv,Enrollment of Grade 12 and Grade 11
+sat_num_test_taker,float64,sat_2019_ca.csv,Number of Test Takers for SAT
+sat_participation_rate,float64,sat_2019_ca.csv,Participation Rate of Grade 12 and 11 in ACT
+sat_num_erw_benchmark,float64,sat_2019_ca.csv,The number meeting the Evidence-Based Reading & Writing (ERW) benchmark established by the College Board based on the New 2016 SAT test format 
+sat_percentage_erw_benchmark,float64,sat_2019_ca.csv,The percent of students who met or exceeded the benchmark for Evidence-Based Reading & Writing (ERW) test
+sat_num_math_benchmark,float64,sat_2019_ca.csv,The number of students who met or exceeded the benchmark for the New SAT Math test format
+sat_percentage_math_benchmark,float64,sat_2019_ca.csv,The percent of students who met or exceeded the benchmark for SAT Math test
+sat_num_both_benchmark,float64,sat_2019_ca.csv,The total number of students who met the benchmark of both Evidence-Based Reading & Writing (ERW) and Math
+sat_percentage_both_benchmark,float64,sat_2019_ca.csv,The percent of students who met the benchmark of both Evidence-Based Reading & Writing (ERW) and Mat
