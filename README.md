@@ -97,7 +97,7 @@ To fulfill the objective of our analysis, we will use the following datasets:
 | expenditure\_per\_student                   | float64 | california\_school\_district\_NCES\_info.csv | Expenditure per student of the school district                                                                                                 |
 | majority\_race                              | object | california\_school\_district\_NCES\_info.csv | The majority race of the district
     |
-| white\_majority                              | object | california\_school\_district\_NCES\_info.csv | Whether the majority race of the district is white
+| white\_majority                             | object | california\_school\_district\_NCES\_info.csv | Whether the majority race of the district is white
     |
 | act\_enroll                                 | float64 | act\_2019\_ca.csv                            | Enrollment of Grade 12                                                                                                                         |
 | act\_num\_test\_taker                       | float64 | act\_2019\_ca.csv                            | Number of Test Takers for ACT                                                                                                                  |
