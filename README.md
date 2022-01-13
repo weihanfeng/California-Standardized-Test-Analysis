@@ -37,17 +37,17 @@ This project aims to analyse the student performances on SAT and ACT tests with 
 To fulfill the objective of our analysis, we will use the following datasets:
 
 **Datasets provided as part of project**
-* [`act_2019_ca.csv`](../data/act_2019_ca.csv): 2019 ACT Scores in California by School
+* [`act_2019_ca.csv`](data/act_2019_ca.csv): 2019 ACT Scores in California by School
 
 
-* [`sat_2019_ca.csv`](../data/sat_2019_ca.csv): 2019 SAT Scores in California by School
+* [`sat_2019_ca.csv`](/data/sat_2019_ca.csv): 2019 SAT Scores in California by School
 
 **Datasets from other sources**
-* [`california_school_district_info.csv`](../data/california_school_district_info.csv): 2018-2019 California School District information such as NCES ID (For referencing school districts on the NCES database), homelessness, dropout, suspension and other demographic/academic info
+* [`california_school_district_info.csv`](/data/california_school_district_info.csv): 2018-2019 California School District information such as NCES ID (For referencing school districts on the NCES database), homelessness, dropout, suspension and other demographic/academic info
 
 
-* [`california_school_district_NCES_info.csv`](../data/california_school_district_NCES_info.csv): additional socio-economic-demographic information about California school districts obtained from National Center for Education Statisitcs(NCES) database 
-    * See the notebook for obtaining the data here: [`additional_data_scraping.ipynb`](./additional_data_scraping.ipynb)
+* [`california_school_district_NCES_info.csv`](/data/california_school_district_NCES_info.csv): additional socio-economic-demographic information about California school districts obtained from National Center for Education Statisitcs(NCES) database 
+    * See the notebook for obtaining the data here: [`additional_data_scraping.ipynb`](code/additional_data_scraping.ipynb)
 
 
 ## Data Dictionary
@@ -123,15 +123,15 @@ To fulfill the objective of our analysis, we will use the following datasets:
 Data consists of:
 
 ACT and SAT results:
-* [`act_2019_ca.csv`](../data/act_2019_ca.csv): 2019 ACT Scores in California by School
+* [`act_2019_ca.csv`](data/act_2019_ca.csv): 2019 ACT Scores in California by School
 
-* [`sat_2019_ca.csv`](../data/sat_2019_ca.csv): 2019 SAT Scores in California by School
+* [`sat_2019_ca.csv`](data/sat_2019_ca.csv): 2019 SAT Scores in California by School
 
 These are the respective ACT and SAT results for all schools in the State of California, with rows for the aggregated district, county, and state level result. We will filter out only district level data for this project.
 
 District level data on socio-economic info of each school district
-* [`california_school_district_info.csv`](../data/california_school_district_info.csv): 2018-2019 California School District information 
-* [`california_school_district_NCES_info.csv`](../data/california_school_district_NCES_info.csv): additional socio-economic-demographic information about California school districts 
+* [`california_school_district_info.csv`](data/california_school_district_info.csv): 2018-2019 California School District information 
+* [`california_school_district_NCES_info.csv`](data/california_school_district_NCES_info.csv): additional socio-economic-demographic information about California school districts 
 
 These are additional district level socio-economic data obtained from National Center for Education Statastics website
 
